@@ -1,0 +1,159 @@
+
+.html, body {
+    background-color: rgb(5, 38, 71);
+  font-family: Arial;
+  color:rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+.html{
+  padding: 0px;
+  margin: 0px;
+}
+.btn{
+  background-color: rgb(5, 38, 71);
+  color: white;
+}
+.form-control{
+    margin-right: 2%;
+    margin-left: 50%;
+}
+.btn:hover{
+  background-color: rgb(51, 41, 185);
+}
+
+/*Cabeçalho + menu*/
+.cabecalho{
+    background-color: rgb(3, 57, 112);
+    margin-bottom: 10px;
+}
+.menu_area{
+  font-size: 17px;
+  padding: 70px;
+}
+.menu_area nav a{
+  background-color: rgb(5, 38, 71);
+  color: white;
+  font-family: Trebuchet MS, sans-serif;
+}
+.menu_area nav a:hover{
+  background-color: rgb(51, 41, 185) !important;
+  color:rgb(237, 234, 241);
+}
+.logo{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 2.5%;
+  border-radius: 2px 30px 2px 30px;
+
+}
+
+/*Lançamentos*/
+.lancamentos{
+  padding: 1%;
+  margin-bottom: 20px;
+  font-size: 70px;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.lancamentos h1{
+  margin-top: -15px;
+  font-size: 100%;
+  margin-bottom: 30px;
+
+}
+.carocel{
+  padding: 10px;
+}
+.lancamentos b{
+  font-size: 20px;
+}
+.text h1{
+  text-align: justify;
+  font-size: 30px;
+  margin-top: 3px;
+}
+.photo{
+  float: left;
+}
+.text{
+  color: rgb(237, 242, 245);
+  float: left;
+  text-align: left;
+  font-size: 15px;
+  padding: 3px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.controler{
+  margin-top: 25px;
+}
+
+/*Em Destaque */
+.destaque{
+  margin: 0px;
+  background-color: rgb(3, 57, 112);
+}
+.titulo_des{
+  font-size: 70px;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.card-des{
+  background-color: rgb(20, 20, 45);
+  padding: 20px;
+  max-width: 240px;
+  margin-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.card-des:hover{
+  background-color: rgb(51, 41, 185) !important;
+  padding: 1px;
+}
+
+/*Em Cartaz*/
+.emCartaz{
+  margin-top: 5px;
+}
+.emCartaz h1{
+  font-size: 70px;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+}
+.cart{
+  margin-bottom: 10px;
+  background-color: rgb(3, 57, 112);
+  padding: 10px;
+  border-radius: 30px 0px 30px 5px;
+}
+.photo-cart{
+  float: right;
+  padding: 10px;
+}
+.text-cart{
+  color: rgb(237, 242, 245);
+  float: right;
+  text-align: justify;
+  font-style: italic;
+}
+
+.titulo_pesq{
+  text-align: left;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 65px;
+}
+
+/*Rodapé*/
+.rodape{
+  margin-top: 3px;
+  background-color: rgb(3, 57, 112);
+}
+.text-rod{
+  margin-top: 1%;
+  text-align: right;  
+}
+.text-rodo{
+    margin-top: 25%;
+    text-align: right;  
+  }
